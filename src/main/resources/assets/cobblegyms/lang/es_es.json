@@ -1,0 +1,16 @@
+{
+  "cobblegyms.command.gyms": "CobbleGyms",
+  "cobblegyms.command.challenge": "Reto",
+  "cobblegyms.command.gymsadmin": "AdminGyms",
+  "cobblegyms.gym.open": "El Gym está ahora ABIERTO",
+  "cobblegyms.gym.closed": "El Gym está ahora CERRADO",
+  "cobblegyms.badge.earned": "¡Has conseguido la Medalla %s!",
+  "cobblegyms.error.no_permission": "No tienes permiso para hacer eso.",
+  "cobblegyms.error.not_a_leader": "No eres un Líder de Gym.",
+  "cobblegyms.error.gym_closed": "Ese Gym está cerrado ahora mismo.",
+  "cobblegyms.error.already_in_queue": "Ya estás en una cola.",
+  "cobblegyms.error.banned": "Estás baneado de este Gym hasta %s.",
+  "cobblegyms.season.info": "Temporada %d — %d días restantes",
+  "cobblegyms.validation.team_valid": "¡Tu equipo es válido!",
+  "cobblegyms.validation.team_invalid": "Tu equipo tiene problemas: %s"
+}

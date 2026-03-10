@@ -1,0 +1,16 @@
+{
+  "cobblegyms.command.gyms": "CobbleGyms",
+  "cobblegyms.command.challenge": "Challenge",
+  "cobblegyms.command.gymsadmin": "GymsAdmin",
+  "cobblegyms.gym.open": "Gym is now OPEN",
+  "cobblegyms.gym.closed": "Gym is now CLOSED",
+  "cobblegyms.badge.earned": "You earned the %s Badge!",
+  "cobblegyms.error.no_permission": "You don't have permission to do that.",
+  "cobblegyms.error.not_a_leader": "You are not a Gym Leader.",
+  "cobblegyms.error.gym_closed": "That Gym is currently closed.",
+  "cobblegyms.error.already_in_queue": "You are already in a queue.",
+  "cobblegyms.error.banned": "You are banned from this Gym until %s.",
+  "cobblegyms.season.info": "Season %d — %d days remaining",
+  "cobblegyms.validation.team_valid": "Your team is valid!",
+  "cobblegyms.validation.team_invalid": "Your team has issues: %s"
+}
