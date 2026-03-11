@@ -1,6 +1,7 @@
 package com.cobblegyms.model;
 
 public class BattleRecord {
+
     private final int id;
     private final int seasonId;
     private final String leaderUuid;
@@ -34,4 +35,9 @@ public class BattleRecord {
     public String getBattleDate() { return battleDate; }
     public String getBattleType() { return battleType; }
     public BattleFormat getFormat() { return format; }
+
+    @Override
+    public String toString() {
+        return "BattleRecord{id=" + id + ", leader='" + leaderUuid + "', challenger='" + challengerName + "', result=" + result + ", date='" + battleDate + "'}";
+    }
 }

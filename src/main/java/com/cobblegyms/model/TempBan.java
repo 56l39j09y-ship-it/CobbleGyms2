@@ -1,6 +1,7 @@
 package com.cobblegyms.model;
 
 public class TempBan {
+
     private final int id;
     private final String leaderUuid;
     private final String bannedUuid;
@@ -24,4 +25,9 @@ public class TempBan {
     public String getBannedName() { return bannedName; }
     public String getReason() { return reason; }
     public String getExpiresAt() { return expiresAt; }
+
+    @Override
+    public String toString() {
+        return "TempBan{banned='" + bannedName + "', leader='" + leaderUuid + "', expires='" + expiresAt + "'}";
+    }
 }
